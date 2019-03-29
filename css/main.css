@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'IntroLightAlt';
+    src: url(../fonts/Intro-Light-Alt.otf)
+}
+body {
+    font-family: IntroLightAlt;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+/* Navigation menu style sheet started */
+.do-main-nav-wrapper {
+    width: 100%;
+    max-height: 60px;
+    padding: 3px 55px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.do-nav-wrapper {
+    margin-left: 120px;
+}
+.do-nav-wrapper ul.do-menus {
+    display: inline-block;
+} 
+.do-nav-wrapper ul.do-menus li {
+    display: inline-block;
+    list-style-type: none;
+    /* padding: 8px 0; */
+}
+.do-nav-wrapper ul.do-menus li a {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: capitalize;  
+}
+
+/* Navigation menu style sheet end */
