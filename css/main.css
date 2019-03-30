@@ -16,19 +16,16 @@ body {
     padding: 0 55px;
     background: rgba(0, 0, 0, 0.7);
 }
-a {
-    border: 1px solid red;
-}
 .do-nav-wrapper {
     display: inline-block;
 }
 .do-nav-wrapper ul.do-menus {
-    display: inline-block;
+    /* display: inline-block; */
 } 
 .do-nav-wrapper ul.do-menus li {
     display: inline-block;
     list-style-type: none;
-    padding: 0 8px;
+    padding: 13px 8px;
 }
 .do-nav-wrapper ul.do-menus li a {
     display: block;
