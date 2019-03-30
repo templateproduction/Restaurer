@@ -13,11 +13,14 @@ body {
 .do-main-nav-wrapper {
     width: 100%;
     max-height: 60px;
-    padding: 3px 55px;
-    background: rgba(0, 0, 0, 0.6);
+    padding: 0 55px;
+    background: rgba(0, 0, 0, 0.7);
+}
+a {
+    border: 1px solid red;
 }
 .do-nav-wrapper {
-    margin-left: 120px;
+    display: inline-block;
 }
 .do-nav-wrapper ul.do-menus {
     display: inline-block;
@@ -25,7 +28,7 @@ body {
 .do-nav-wrapper ul.do-menus li {
     display: inline-block;
     list-style-type: none;
-    /* padding: 8px 0; */
+    padding: 0 8px;
 }
 .do-nav-wrapper ul.do-menus li a {
     display: block;
