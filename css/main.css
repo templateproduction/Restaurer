@@ -17,10 +17,8 @@ body {
     background: rgba(0, 0, 0, 0.7);
 }
 .do-brand-logo {
-    /* display: block; */
     font-size: 15px;
     letter-spacing: 1px;
-    text-decoration: none;
     text-transform: capitalize;  
 }
 .do-nav-wrapper {
