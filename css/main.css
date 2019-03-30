@@ -16,11 +16,7 @@ body {
     padding: 0 55px;
     background: rgba(0, 0, 0, 0.7);
 }
-.do-brand-logo {
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-transform: capitalize;  
-}
+
 .do-nav-wrapper {
     display: inline-block;
 }
