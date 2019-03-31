@@ -8,9 +8,7 @@ body {
     letter-spacing: 1px;
     font-size: 16px;
 }
-header {
-    position: absolute;
-}
+
 /* Navigation menu style sheet started */
 .do-main-nav-wrapper {
     width: 100%;
