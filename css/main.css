@@ -8,19 +8,21 @@ body {
     letter-spacing: 1px;
     font-size: 16px;
 }
-
+header {
+    position: absolute;
+}
 /* Navigation menu style sheet started */
 .do-main-nav-wrapper {
     width: 100%;
     max-height: 60px;
     padding: 0 55px;
-    background: rgba(251, 253, 225, 1);
+    background: transparent;
 }
 .do-navbar-header {
     display: inline-block;
 }
 .do-nav-wrapper {
-    margin-left: 26%;
+    margin-left: 10%;
     display: inline-block;
 }
 .do-nav-wrapper ul.do-menus li {
