@@ -13,14 +13,12 @@ body {
 .do-main-nav-wrapper {
     width: 100%;
     max-height: 60px;
-    background: transparent;
+    background: red;
 }
 .do-navbar-header {
-    border: 1px solid black;
     display: inline-block;
 }
 .do-nav-wrapper {
-    border: 1px solid black;
     margin-left: 10%;
     display: inline-block;
 }
