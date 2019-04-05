@@ -47,10 +47,6 @@ body {
 
 /* Navigation menu style sheet end */
 
-.ab {
-    /* background: #BF0013; */
-    /* background: #FFDA08; */
-}
 body {
     background: #C2A606;
 }
@@ -65,3 +61,22 @@ h1{
     background: #FFDA08;
     box-shadow: 0 8px 13px rgba(0,0,0,0.1), 0 3px 5px rgba(0,0,0,0.1);
 } 
+.eee {
+    height: 500px;
+}
+/* -------------------------------------------------
+
+        Footer Section Style Sheet Started
+
+---------------------------------------------------- */
+.do-footer-alignment {
+    padding: 55px 0;
+}
+.do-quick-link ul {
+    list-style-type: none;
+}
+.do-quick-link ul li a {
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
