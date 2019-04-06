@@ -72,10 +72,21 @@ h1{
 .do-footer-alignment {
     padding: 55px 0;
 }
+.aaa {
+    background: green;
+}
 .do-quick-link ul {
     list-style-type: none;
 }
 .do-quick-link ul li a {
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.do-terms-policy ul {
+    list-style-type: none;
+}
+.do-terms-policy ul li a {
     color: #000;
     letter-spacing: 1px;
     text-decoration: none;
