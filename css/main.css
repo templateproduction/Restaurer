@@ -81,3 +81,15 @@ h1{
     background: #A6634B;
     /* height: 120px; */
 }
+.do-footer-useful-links-wrapper h2 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+.do-footer-useful-links-wrapper .do-short-navbar ul {
+    list-style-type: none;
+}
+.do-footer-useful-links-wrapper .do-short-navbar ul li a {
+    color: #fff;
+    font-size: 16px;
+}
