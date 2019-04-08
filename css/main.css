@@ -81,22 +81,23 @@ h1{
     background: #A6634B;
     /* height: 120px; */
 }
-.do-footer-useful-links-wrapper h2 {
+.do-footer-quick-links-wrapper h2 {
     font-size: 21px;
     letter-spacing: 1px;
     color: #FFF;
 }
-.do-footer-useful-links-wrapper h2::after {
+.do-footer-quick-links-wrapper h2::after {
     content: '';
     display: block;
     background: #000;
     height: 3px;
-    width: 34px;
+    width: 55px;
+    margin-top: 5px;
 }
-.do-footer-useful-links-wrapper .do-short-navbar ul {
+.do-footer-quick-links-wrapper .do-short-navbar ul {
     list-style-type: none;
 }
-.do-footer-useful-links-wrapper .do-short-navbar ul li a {
+.do-footer-quick-links-wrapper .do-short-navbar ul li a {
     color: #fff;
     font-size: 16px;
     letter-spacing: 1px;
