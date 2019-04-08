@@ -12,8 +12,11 @@ body {
 /* Navigation menu style sheet started */
 .do-main-nav-wrapper {
     width: 100%;
-    max-height: 60px;
-    background: #E60017;
+    height: 65px;
+    /* background: #E60017; */
+    /* background: #FF5F5B; */
+    /* background: #EB0018; */
+    background: #010A26;
 }
 .do-navbar-header {
     display: inline-block;
@@ -48,7 +51,10 @@ body {
 /* Navigation menu style sheet end */
 
 body {
-    background: #C2A606;
+    /* background: #C2A606; */
+    /* background: #FFE684; */
+    /* background: #D9AC84; */
+    background: #D9042B;
 }
 h1{
     font-weight: bold;
@@ -69,22 +75,9 @@ h1{
         Footer Section Style Sheet Started
 
 ---------------------------------------------------- */
-.do-footer-alignment {
-    padding: 89px 0;
-}
-.do-quick-link ul {
-    list-style-type: none;
-}
-.do-quick-link ul li a {
-    color: #000;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-.do-terms-policy ul {
-    list-style-type: none;
-}
-.do-terms-policy ul li a {
-    color: #000;
-    letter-spacing: 1px;
-    text-decoration: none;
+.do-footer-wrapper {
+    /* background: #EB0018; */
+    /* background: #010A26; */
+    background: #A6634B;
+    height: 120px;
 }
