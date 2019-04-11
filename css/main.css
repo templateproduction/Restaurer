@@ -124,3 +124,7 @@ h1{
     color: #fff;
     letter-spacing: 2px;
 }
+/* Footer Address Started */
+.do-footer-address ul {
+    list-style-type: none;
+}
