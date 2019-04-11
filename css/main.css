@@ -100,5 +100,34 @@ h1{
 .do-footer-quick-links-wrapper .do-short-navbar ul li a {
     color: #fff;
     font-size: 16px;
+    text-decoration: none;
     letter-spacing: 1px;
+    transition: all ease-in-out 0.8s;
 }
+.do-footer-quick-links-wrapper .do-short-navbar ul li a:hover {
+    color: #000;
+    transition: all ease-in-out 0.8s;
+}
+.do-useful-link-wrapper h2 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #FFF;   
+}
+.do-useful-link-wrapper h2::after {
+    content: '';
+    display: block;
+    background: #000;
+    height: 3px;
+    width: 55px;
+    margin-top: 5px;
+}
+.do-useful-link-wrapper .do-short-link ul {
+    list-style-type: none;
+}
+.do-useful-link-wrapper .do-short-link ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+.do-useful-link-wrapper .
