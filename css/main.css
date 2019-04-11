@@ -85,6 +85,11 @@ h1{
 .do-footer-quick-links-wrapper .do-short-navbar ul {
     list-style-type: none;
 }
+.do-footer-quick-links-wrapper .do-short-navbar ul h2 {
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+}
 .do-footer-quick-links-wrapper .do-short-navbar ul li a {
     color: #fff;
     font-size: 16px;
@@ -99,9 +104,18 @@ h1{
 .do-useful-link-wrapper .do-short-link ul {
     list-style-type: none;
 }
+.do-useful-link-wrapper .do-short-link ul h2 {
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+}
 .do-useful-link-wrapper .do-short-link ul li a {
     font-size: 16px;
     text-decoration: none;
     letter-spacing: 1px;
     color: #FFF;
+}
+.do-logo-brand-name .do-footer-brand-logo img {
+    width: 55px;
+    height: 34px;
 }
