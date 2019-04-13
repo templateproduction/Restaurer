@@ -4,7 +4,7 @@
 }
 body {
     font-family: IntroLightAlt;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     letter-spacing: 1px;
     font-size: 16px;
 }
@@ -13,10 +13,10 @@ body {
 .do-main-nav-wrapper {
     width: 100%;
     height: 65px;
-    /* background: #E60017; */
-    /* background: #FF5F5B; */
-    /* background: #EB0018; */
-    background: #010A26;
+    background: #E60017;
+    /* background: #FF5F5B;
+    background: #EB0018; */
+    /* background: #010A26; */
 }
 .do-navbar-header {
     display: inline-block;
@@ -54,7 +54,7 @@ body {
     /* background: #C2A606; */
     /* background: #FFE684; */
     /* background: #D9AC84; */
-    background: #D9042B;
+    background: rgb(17, 16, 16);
 }
 h1{
     font-weight: bold;
@@ -67,64 +67,129 @@ h1{
     background: #FFDA08;
     box-shadow: 0 8px 13px rgba(0,0,0,0.1), 0 3px 5px rgba(0,0,0,0.1);
 } 
-.eee {
-    height: 500px;
-}
 /* -------------------------------------------------
 
         Footer Section Style Sheet Started
 
 ---------------------------------------------------- */
 .do-footer-wrapper {
-    /* background: #EB0018; */
-    /* background: #010A26; */
-    background: #A6634B;
+    padding: 89px 0;
+    background: #EB0018; 
+    /* background: #010A26;
+    background: #A6634B; */
     /* height: 120px; */
 }
-
+/* Quick Navigation section started */
 .do-footer-quick-links-wrapper .do-short-navbar ul {
     list-style-type: none;
 }
 .do-footer-quick-links-wrapper .do-short-navbar ul h2 {
+    padding-bottom: 21px;
     font-size: 21px;
     color: #fff;
     letter-spacing: 1px;
 }
+.do-footer-quick-links-wrapper .do-short-navbar ul li{
+    padding-bottom: 8px;
+} 
+.do-footer-quick-links-wrapper .do-short-navbar ul li:last-child{
+    padding-bottom: 0;
+} 
 .do-footer-quick-links-wrapper .do-short-navbar ul li a {
     color: #fff;
     font-size: 16px;
     text-decoration: none;
     letter-spacing: 1px;
-    transition: all ease-in-out 0.8s;
+    transition: all ease-in-out 0.5s;
 }
 .do-footer-quick-links-wrapper .do-short-navbar ul li a:hover {
     color: #000;
-    transition: all ease-in-out 0.8s;
+    transition: all ease-in-out 0.5s;
 }
+/* Useful Link section started */
 .do-useful-link-wrapper .do-short-link ul {
     list-style-type: none;
 }
 .do-useful-link-wrapper .do-short-link ul h2 {
+    padding-bottom: 21px;
     font-size: 21px;
     color: #fff;
     letter-spacing: 1px;
+}
+.do-footer-quick-links-wrapper .do-short-navbar ul h2::after,
+.do-useful-link-wrapper .do-short-link ul h2::after {
+    content: '';
+    background: #fff;
+    width: 45px;
+    height: 2px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.do-useful-link-wrapper .do-short-link ul li {
+    padding-bottom: 8px;
+}
+.do-useful-link-wrapper .do-short-link ul li:last-child {
+    padding-bottom: 0;
 }
 .do-useful-link-wrapper .do-short-link ul li a {
     font-size: 16px;
     text-decoration: none;
     letter-spacing: 1px;
     color: #FFF;
+    transition: all ease-in-out 0.5s;
 }
-.do-logo-brand-name .do-footer-brand-logo img {
-    width: 50px;
-    height: 50px;
+.do-useful-link-wrapper .do-short-link ul li a:hover {
+    color: #000;
+    transition: all ease-in-out 0.5s;
 }
-.do-logo-brand-name .do-footer-brand-title {
-    font-size: 34px;
+/* Footer Social Media section */
+.do-footer-social-media {
+    margin-left: 23px;
+}
+.do-footer-social-media a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+}
+.do-footer-social-media a i::before {
+    font-size: 26px;
+}
+.do-footer-social-media a:first-child:hover {
+    color: #3b5998;
+    transition: color 0.3s ease-in-out;
+}
+.do-footer-social-media a:last-child:hover {
+    color: #fb3958;
+}
+/* Footer Logo and Company Name Section Started */
+.do-footer-address-wrapper {
+    position: relative;
+}
+.do-footer-address-wrapper .do-logo-brand-name .do-footer-brand-logo img {
+    height: 55px;
+    width: 55px;
+}
+.do-footer-address-wrapper .do-logo-brand-name .do-footer-brand-title {
     color: #fff;
-    letter-spacing: 2px;
+    font-size: 29px;
 }
-/* Footer Address Started */
-.do-footer-address ul {
+.do-footer-address-wrapper .do-footer-address {
+    margin-top: 21px;
+    padding: 0;
+}
+.do-footer-address-wrapper .do-footer-address ul {
     list-style-type: none;
+}
+.do-footer-address-wrapper .do-footer-address ul li {
+    padding-left: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+.do-footer-address-wrapper .do-footer-address ul li i {
+    color: #000;
+    position: absolute;
+    left: 0;
+    margin-top: 3px;
 }
