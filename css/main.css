@@ -13,7 +13,15 @@ body {
 .do-main-nav-wrapper {
     width: 100%;
     height: 65px;
-    background: #E60017;
+    /* background: transparent; */
+    background: #D92534;
+    /* background: #D92534;
+    background: #0477BF;
+    background: #05C7F2;
+    background: #2B308C;
+    background: #BF046B;
+    background: #F28322; */
+    /* background: #E60017; */
     /* background: #FF5F5B;
     background: #EB0018; */
     /* background: #010A26; */
@@ -21,52 +29,68 @@ body {
 .do-navbar-header {
     display: inline-block;
 }
+.do-navbar-header img {
+    display: inline-block;
+    margin-top: 5px;
+    height: 55px;
+    width: 55px;
+}
 .do-nav-wrapper {
-    margin-left: 25%;
+    /* border: 1px solid black; */
     display: inline-block;
+    margin-left: 144px;
 }
-.do-nav-wrapper ul.do-menus li {
-    display: inline-block;
+.do-nav-wrapper ul {
     list-style-type: none;
-    margin-top: 12px;
-    padding: 8px 13px;
 }
-.do-nav-wrapper ul.do-menus li a {
-    display: block;
+.do-nav-wrapper ul li {
+    display: inline-block;
+}
+.do-nav-wrapper ul li a {
     color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: capitalize;
     text-decoration: none;
-    text-transform: capitalize;  
+    padding: 0 8px;
+    transition: color 0.3s ease-in-out;
+}
+.do-nav-wrapper ul li a:hover {
+    color: #000;
+    transition: color 0.3s ease-in-out;
 }
 .do-nav-wrapper ul .do-book-table-btn {
     color: #000;
-    padding: 10px 17px;
-    border-radius: 13px;
-    border: 1px solid yellow;
-    background: yellow;
+    padding: 11px 13px;
+    font-size: 18px;
+    text-transform: capitalize;
     text-decoration: none;
+    background: yellow;
+    border-radius: 3px;
 }
-
 /* Navigation menu style sheet end */
 
 body {
     /* background: #C2A606; */
     /* background: #FFE684; */
     /* background: #D9AC84; */
-    background: rgb(17, 16, 16);
+    /* background: rgb(17, 16, 16); */
 }
-h1{
-    font-weight: bold;
-    margin: 21px;
-    padding: 21px;
-    border-radius: 8px;
-    text-align: center;
-    color: #FFF;
-    font-size: 21px;
-    background: #FFDA08;
+/* h1{
     box-shadow: 0 8px 13px rgba(0,0,0,0.1), 0 3px 5px rgba(0,0,0,0.1);
-} 
+}  */
+/* -------------------------------------------------
+
+                Home Page Section Started
+
+---------------------------------------------------- */
+.do-welcome-note-wrapper .do-welcome-note h2 {
+    font-size: 18px;
+    color: #c2c2c2;
+}
+.do-welcome-note-wrapper .do-welcome-note p {
+    font-size: 34px;
+    font-weight: 600;
+}
 /* -------------------------------------------------
 
         Footer Section Style Sheet Started
@@ -74,10 +98,12 @@ h1{
 ---------------------------------------------------- */
 .do-footer-wrapper {
     padding: 89px 0;
-    background: #EB0018; 
+    /* background: #0477BF; */
+    background: #05C7F2;
+    /* background: #F28322; */
+    /* background: #EB0018;  */
     /* background: #010A26;
     background: #A6634B; */
-    /* height: 120px; */
 }
 /* Quick Navigation section started */
 .do-footer-quick-links-wrapper .do-short-navbar ul {
@@ -172,7 +198,7 @@ h1{
 }
 .do-footer-address-wrapper .do-logo-brand-name .do-footer-brand-title {
     color: #fff;
-    font-size: 29px;
+    font-size: 25px;
 }
 .do-footer-address-wrapper .do-footer-address {
     margin-top: 21px;
