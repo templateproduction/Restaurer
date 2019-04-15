@@ -93,18 +93,24 @@ body {
 .do-welcome-note-wrapper .do-welcome-note p {
     font-size: 34px;
     font-weight: 600;
+    margin: 34px 0 89px 0;
 }
 .do-welcome-note-wrapper .do-welcome-img {
     background-image: url(../images/about.jpg);
     background-size: cover;
     background-position: cover cover;
     height: 450px;
+    flex: 0 47%;
 }
 .do-welcome-note-wrapper .do-welcome-img-two {
     background-image: url(../images/cover_bg_2.jpg);
     background-size: cover;
     background-position: cover cover;
     height: 450px;
+    width: 311px;
+    flex: 0 48%;
+    margin-top: 50px;
+    margin-left: 5%;
 }
 /* -------------------------------------------------
 
