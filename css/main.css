@@ -83,6 +83,9 @@ body {
                 Home Page Section Started
 
 ---------------------------------------------------- */
+.do-welcome-note-wrapper {
+    margin: 89px 0;
+}
 .do-welcome-note-wrapper .do-welcome-note h2 {
     font-size: 18px;
     color: #c2c2c2;
@@ -90,6 +93,18 @@ body {
 .do-welcome-note-wrapper .do-welcome-note p {
     font-size: 34px;
     font-weight: 600;
+}
+.do-welcome-note-wrapper .do-welcome-img {
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+    background-position: cover cover;
+    height: 450px;
+}
+.do-welcome-note-wrapper .do-welcome-img-two {
+    background-image: url(../images/cover_bg_2.jpg);
+    background-size: cover;
+    background-position: cover cover;
+    height: 450px;
 }
 /* -------------------------------------------------
 
