@@ -68,6 +68,17 @@ body {
     border-radius: 3px;
 }
 /* Navigation menu style sheet end */
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
 
 body {
     /* background: #C2A606; */
